@@ -2383,3 +2383,226 @@ body.dark .grax_tm_settings .cursor li .svg,
 	.grax_tm_news .news_list ul{margin: 0px;}
 	.grax_tm_news .news_list ul li{width: 100%;padding-left: 0px;}
 }
+
+/* General Responsive Adjustments */
+@media (max-width: 1400px) {
+	.grax_tm_about .left,
+	.grax_tm_about .right {
+	  width: 100%;
+	  padding-right: 0;
+	  padding-left: 0;
+	}
+  
+	.grax_tm_about .left {
+	  margin-bottom: 40px;
+	}
+  
+	.grax_tm_progress_part .left,
+	.grax_tm_progress_part .right {
+	  width: 100%;
+	  padding-right: 0;
+	  padding-left: 0;
+	}
+  }
+  
+  @media (max-width: 1200px) {
+	.grax_tm_modalbox_news .box_inner {
+	  width: 80%;
+	  top: 20px;
+	  bottom: 20px;
+	}
+  
+	.grax_tm_modalbox_news .close {
+	  top: 10px;
+	  right: 10px;
+	}
+  }
+  
+  @media (max-width: 1040px) {
+	.container {
+	  padding: 0px 15px;
+	}
+  
+	.grax_tm_about .left,
+	.grax_tm_about .right {
+	  width: 100%;
+	  padding: 0 15px;
+	}
+  
+	.grax_tm_topbar {
+	  display: none;
+	}
+  
+	.grax_tm_mobile_menu {
+	  display: block;
+	}
+  
+	.grax_tm_portfolio ul {
+	  margin-left: -15px;
+	}
+  
+	.grax_tm_portfolio ul li {
+	  padding-left: 15px;
+	  width: 50%;
+	  margin-bottom: 15px;
+	}
+  
+	.grax_tm_news .news_list ul {
+	  margin-left: -20px;
+	}
+  
+	.grax_tm_news .news_list ul li {
+	  padding-left: 20px;
+	  margin-bottom: 20px;
+	  width: 100%;
+	}
+  
+	.grax_tm_contact .left,
+	.grax_tm_contact .right {
+	  width: 100%;
+	  padding: 0 15px;
+	}
+  
+	.grax_tm_copyright .copyright_inner {
+	  display: block;
+	}
+  }
+  
+  @media (max-width: 768px) {
+	h1 {
+	  font-size: 36px;
+	}
+	h2 {
+	  font-size: 30px;
+	}
+	h3 {
+	  font-size: 24px;
+	}
+	h4 {
+	  font-size: 20px;
+	}
+	h5 {
+	  font-size: 18px;
+	}
+	h6 {
+	  font-size: 16px;
+	}
+  
+	.grax_tm_title_holder h3 {
+	  font-size: 24px;
+	  letter-spacing: 5px;
+	}
+  
+	.grax_tm_hero .name {
+	  font-size: 32px;
+	}
+  
+	.grax_tm_hero .job {
+	  font-size: 16px;
+	}
+  
+	.grax_tm_about .right .list ul li {
+	  width: 100%;
+	  padding-left: 0px;
+	}
+  
+	.grax_tm_portfolio ul li {
+	  width: 100%;
+	  padding-left: 0px;
+	  margin-bottom: 20px;
+	}
+  
+	.grax_tm_talk .talk_inner {
+	  display: block;
+	}
+  
+	.grax_tm_talk .text {
+	  padding-right: 0px;
+	  margin-bottom: 20px;
+	}
+  
+	.grax_tm_news .news_list ul li {
+	  width: 100%;
+	  padding-left: 0px;
+	  margin-bottom: 20px;
+	}
+  
+	.grax_tm_contact .contact_inner {
+	  display: block;
+	}
+  
+	.grax_tm_contact .left {
+	  width: 100%;
+	  margin-bottom: 20px;
+	}
+  
+	.grax_tm_contact .right {
+	  width: 100%;
+	  padding-left: 0px;
+	}
+  
+	.grax_tm_copyright .logo img {
+	  max-width: 80px;
+	}
+  
+	.grax_tm_modalbox_news .details .title {
+	  font-size: 20px;
+	}
+  
+	.grax_tm_modalbox_news .description_wrap {
+	  padding: 15px;
+	}
+  
+	.grax_tm_intro_content .title_holder h3 {
+	  font-size: 20px;
+	  letter-spacing: 4px;
+	}
+  
+	.grax_tm_intro_content .demo_list ul li {
+	  width: 100%;
+	  padding-left: 0px;
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.grax_tm_hero .name {
+	  font-size: 28px;
+	}
+  
+	.grax_tm_hero .job {
+	  font-size: 14px;
+	}
+  
+	.grax_tm_portfolio ul {
+	  margin: 0px;
+	}
+  
+	.grax_tm_portfolio ul li {
+	  width: 100%;
+	  padding-left: 0px;
+	  margin-bottom: 15px;
+	}
+  
+	.grax_tm_news .news_list ul {
+	  margin: 0px;
+	}
+  
+	.grax_tm_news .news_list ul li {
+	  width: 100%;
+	  padding-left: 0px;
+	  margin-bottom: 15px;
+	}
+  
+	.grax_tm_contact .contact_inner {
+	  padding: 0px 15px;
+	}
+  
+	.grax_tm_copyright .copy p {
+	  font-size: 12px;
+	}
+  
+	.grax_tm_copyright .social ul li {
+	  margin-right: 10px;
+	}
+  }
+  
